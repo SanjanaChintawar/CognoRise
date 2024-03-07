@@ -1,0 +1,78 @@
+body {
+    background-color: #070F2B;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 450px;
+    padding: 33px;
+    text-align: center;
+    background-color: #F0F3FF;
+    margin-top: 5px;
+    border-radius: 20%;
+}
+
+
+input {
+    width: 330px;
+    padding: 8px;
+    border: 2px solid #535C91;
+    outline: none;
+    font-size: 19px;
+
+
+}
+
+button {
+    width: 60px;
+    height: 41px;
+    background-color: #1B1A55;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    outline: none;
+    border-radius: 2px;
+    font-size: 19px;
+}
+.text{
+    height: 450px;
+    width: 400px;
+    position: relative;
+    overflow: auto;
+    padding-left: 30px;
+}
+.text ul {
+    width: 400;
+    background-color: #535C91;
+    color: white;
+    font-size: 19px;
+    padding: 7px;
+    text-align: left;
+
+}
+.text::-webkit-scrollbar {
+    display: none;
+}
+.text ul .fa-circle-check {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.text ul .fa-trash {
+    position: absolute;
+    right: 40px;
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7px;
+    font-style: italic;
+    font-weight: 700;
+    padding: 33px;
+}
